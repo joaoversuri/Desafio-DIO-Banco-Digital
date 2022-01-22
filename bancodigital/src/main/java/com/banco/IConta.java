@@ -9,4 +9,9 @@ public interface IConta {
 
     void imprimirExtrato();
 
+
+    void imprimirInfoBanco();
+
+    void imprimirInfoCliente();
+
 }

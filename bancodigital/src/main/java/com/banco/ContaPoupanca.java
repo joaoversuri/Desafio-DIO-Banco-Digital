@@ -1,6 +1,6 @@
 package com.banco;
 
-public class ContaPoupanca extends Conta{
+public class ContaPoupanca extends Conta {
 
 
     public ContaPoupanca(Cliente cliente) {
@@ -9,7 +9,10 @@ public class ContaPoupanca extends Conta{
 
     @Override
     public void imprimirExtrato() {
-        System.out.println("=== Extrato Conta Poupança ===");
-        super.imprimirInfosComuns();
+        System.out.println("\n=== Extrato Conta Poupança ===");
+        super.imprimirInfoCliente();
+        super.imprimirInfoConta();
+        super.imprimirInfoBanco();
+        System.out.println("===============================");
     }
 }
